@@ -24,6 +24,30 @@ const Cards = (props) => {
             </Typography>
           </CardContent>
         </Grid>
+        <Grid item component={Card}>
+          <CardContent>
+            <Typography color="textSecondary" gutterBottom>
+              Recoverd
+            </Typography>
+            <Typography variant="h5">REAL DATA</Typography>
+            <Typography color="textSecondary">READL DATA</Typography>
+            <Typography variant="body2">
+              Number of recoveries from COVID-19
+            </Typography>
+          </CardContent>
+        </Grid>
+        <Grid item component={Card}>
+          <CardContent>
+            <Typography color="textSecondary" gutterBottom>
+              Deaths
+            </Typography>
+            <Typography variant="h5">REAL DATA</Typography>
+            <Typography color="textSecondary">READL DATA</Typography>
+            <Typography variant="body2">
+              Number of deaths cases caused by COVID-19
+            </Typography>
+          </CardContent>
+        </Grid>
       </Grid>
     </div>
   );
