@@ -7,3 +7,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+iframe {
+  display: none; /* in order to disable error overlay in development mode */
+}
