@@ -25,7 +25,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           component={Card}
           xs={12}
           md={3}
-          className={cx(styles.card, styles.infeacted)}
+          className={cx(styles.card, styles.infected)}
         >
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
@@ -35,7 +35,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               <CountUp
                 start={0}
                 end={confirmed.value}
-                duration={2.5}
+                duration={3}
                 separator=","
               />
             </Typography>
@@ -63,7 +63,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               <CountUp
                 start={0}
                 end={confirmed.value - deaths.value}
-                duration={2.5}
+                duration={3}
                 separator=","
               />
             </Typography>
@@ -90,7 +90,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               <CountUp
                 start={0}
                 end={deaths.value}
-                duration={10}
+                duration={3}
                 separator=","
               />
             </Typography>
