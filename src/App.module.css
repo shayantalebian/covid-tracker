@@ -8,6 +8,6 @@ body {
   justify-content: center;
 }
 
-iframe {
-  display: none; /* in order to disable error overlay in development mode */
-}
+/* iframe {
+  display: none; /* in order to disable error overlay in development mode 
+}*/
