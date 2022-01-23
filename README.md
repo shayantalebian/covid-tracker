@@ -1,8 +1,4 @@
-# Status : Not finished yet
-
 # COVID TRACKER WEB APP
-
-### [Live Site]()
 
 ## Introduction
 
